@@ -1,0 +1,60 @@
+.booking-container {
+  position: relative;
+  border-style: solid;
+  margin:5% 30%;
+  width: 40%;
+  height: 60%;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 5px 5px 8px 10px rgb(185, 183, 183);
+}
+.text-booking{
+  text-decoration: underline;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.selector-service{
+  display: flex;
+  padding: 35px;
+  flex-direction: column;
+  gap: 50px;
+}
+.selector {
+  border-style: solid;
+  border-radius: 30px;
+  padding: 20px;
+}
+.appointement-infor {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+}
+#name,#phone {
+  border-style: solid;
+  border-radius: 20px;
+  padding: 10px;
+}
+#timeList{
+  border-style: solid;
+  width: 300px;
+}
+.button-appoint{
+  position: absolute;
+  bottom: 60%;
+  cursor: pointer;
+  width: 80px;
+  height: 40px;
+  background-color:rgba(28, 46, 103, 0.269) ;
+  border-style: none;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+.button-appoint:hover {
+  color: rgb(20, 20, 20);
+  border-style: solid;
+  background-color: white;
+  width: 120px;
+  opacity: 0.7;  
+}
